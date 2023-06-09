@@ -37,5 +37,3 @@ if __name__ == "__main__":
     process2 = Thread(target=test_singleton, args=("BAR",))
     process1.start()
     process2.start()
-
-
