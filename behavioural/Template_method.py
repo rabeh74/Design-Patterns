@@ -1,3 +1,11 @@
+""" Template method is a behavioural design pattern that
+defines the skeleton of an algorithm in the superclass
+but lets subclasses override specific steps of the algorithm without changing its structure.
+"""
+"""
+it is used when we have similar algorithms with minor differences
+"""
+
 from abc import ABC, abstractmethod
 class GameAI(ABC):
     def _turn(self):
