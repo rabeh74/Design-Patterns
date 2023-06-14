@@ -1,4 +1,6 @@
-class Device:
+from abc import ABC, abstractmethod
+
+class Device(ABC):
     def __init__(self):
         self.volume = 0
         self.channel = 0
